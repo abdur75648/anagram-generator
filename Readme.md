@@ -6,11 +6,11 @@ We are given a vocabulary V of (lowercase) English words. It uses letters of the
 
  In this implementation, we will load V (Vocabulary) from the text file and then compute anagrams. We'll provide an input file also in the text format. In both vocabulary and input files there should be one string written per line. Our goal will be to compute all valid anagrams (i.e., each word within your anagram must be present in V) of all input strings After computing all valid anagrams of one string we'll output a ‘-1’ to indicate that we are done computing anagrams of this string.
 
-### How to run the code
- '''
+**Commands to run the code:**
+```
  javac Anagram.java
  java Anagram vocabulary.txt input.txt
- '''
+```
 
  - Anagram - Two strings are anagrams of each other if by rearranging letters of one string you can obtain the other. For example, “a bit” is an anagram of “bait”, and “super” is an anagram of “purse”. Note that we can add spaces at will, i.e., we won’t count spaces when matching characters for checking anagrams. However, we'll only compute anagrams with a maximum of 2 spaces in them (i.e., three words at most). Please note that each permutation of these words will also be a valid anagram.
 
