@@ -1,6 +1,8 @@
 # Anagram-Generator
 A Java program that prints out all valid anagrams of an input string present in the a vocabulary
 
+![image](https://user-images.githubusercontent.com/66300465/167696211-ff2140a0-0f95-4fda-ae2c-1cfb10bdff47.png)
+
 ## Description
 We are given a vocabulary V of (lowercase) English words. It uses letters of the English alphabet [a-z], digits [0-9], and the apostrophe symbol [']. No other characters are used in the vocabulary V. Our goal is to print out all valid anagrams of an input string present in the vocabulary. The input string will be a sequence of at most 12 characters.
 
